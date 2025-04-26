@@ -25,6 +25,15 @@ Content-Type: application/json
 
 ###
 
+POST http://127.0.0.1:8000/api/token/refresh/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTc0NTc2MzIyMSwiaWF0IjoxNzQ1Njc2ODIxLCJqdGkiOiIyYjc5ZGY3MTM4ZGQ0OTE2OWQ0ZGM3YTQ2MjQ1NjFhNSIsInVzZXJfaWQiOjF9.Q52OCTG6h1fxZMC77dCEGuz28Grdk6sN51iCndQNgto"
+}
+
+###
+
 GET http://127.0.0.1:8000/user-orders/ HTTP/1.1
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQ1Njc2MjI5LCJpYXQiOjE3NDU2NzU5MjksImp0aSI6IjkxMWNkYTdlYTNmOTRmOGVhNDYwMzU5MDBmMGM3YzkzIiwidXNlcl9pZCI6Mn0.Am4mUft8sJ4pkGAOby2nXdaZbVrh5-P-CDYavfsxI24
 
